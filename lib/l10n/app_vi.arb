@@ -1,0 +1,72 @@
+{
+  "not_selected_stock_code":"Bạn chưa chọn mã chứng khoán",
+  "purchasing_ability":"SM: ",
+  "lang":"Ngôn ngữ",
+  "language":"Ngôn ngữ",
+  "languageDropdown": "{locale, select, vi{VN} en{EN} other{} }",
+  "@languageDropdown": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+  "loginForm": "{loginForm, select, title{Đăng nhập} create_account{Mở tài khoản} account{Bạn chưa có tài khoản?} user_name{Tài khoản} password{Mật khẩu} save_login{Lưu đăng nhập} forgot_password{Quên mật khẩu?} search_stk{Tra cứu số tài khoản} save_login_info{Lưu thông tin đăng nhập} other{}}",
+  "@loginForm": {
+    "placeholders": {
+      "loginForm": {
+        "type": "String"
+      }
+    }
+  },
+  "hintSearch" : "Tìm kiếm...",
+  "searchAccount": "{searchAccount,select, searchaccount{Tra cứu số tài khoản} message{Quý khách vui lòng nhập đầy đủ thông tin dưới đây để tra cứu số tài khoản} idcard{Số CCCD/CMND} phone{Số điện thoại} button{Tra cứu} accountnumber{Số tài khoản của quý khách} accountname{Họ tên chủ tài khoản} other{}}",
+  "forgetPassword": "{forgetPassword, select, forgotpassword{Quên mật khẩu} accountnumber{Số tài khoản} idcard{Mã định danh} resetpass{Đặt lại mật khẩu} newpass{Mật khẩu mới} enternewpass{Nhập mật khẩu mới} renewpass{Nhập lại mật khẩu mới} enterrenewpass{Vui lòng nhập lại mật khẩu mới} msg{Mật khẩu đăng nhập phải có:} check1{Độ dài gồm 8-32 ký tự.} check2{Bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt.} check3{Không bao gồm khoảng trắng.} other{}}",
+
+  "bottombarForm" : "{bottombarForm,select, home{Trang chủ} market{Thị trường} order{Đặt lệnh} asset{Tài sản} orderbook{Sổ lệnh} expand{Mở rộng} other{}}",
+  
+  "homepageForm" : "{homepageForm,select,bill{Tỷ} all{Tất cả} watchlist{Danh mục} equitySecure{Chứng khoán sở hữu} stock{Cổ phiếu} industry{Ngành} waranties{Chứng quyền} symbol{Mã CK} matchPrice{Giá khớp} matchvol{KL khớp} totalvol{Tổng KL} addnewWL{Thêm danh mục mới} other{}}",
+ 
+  "marketpageForm" : "{marketpageForm,select,  other{}}",
+
+  "addCommandForm" : "{addCommandForm,select,order{Đặt lệnh} floor{Sàn} tc{TC} ceil{Trần} highest{Cao} lowest{Thấp} avg{TB} totalvol{Tổng KL} Bvol{KL mua} Svol{KL bán} Bpri{Giá mua} Spri{Giá bán} volume{Khối lượng} maxQuan{KL tối đa} price{Giá đặt}  stoplossprice{Giá cắt lỗ} takeprofitprice{Giá chốt lãi} SLs{Biên độ cắt lỗ} activationprice{Giá kích hoạt} slippage{Biên trượt} pricerange{Biên độ giá} startDate{Ngày bắt đầu} endDate{Ngày kết thúc} buyingPower{Sức mua} loanRatio{Tỉ lệ cho vay} totalordervalue{Tổng giá trị lệnh} other{}}",
+  
+  "assetPageForm" : "{assetPageForm,select, assetPM{Danh mục tài sản} account{Tài khoản} outdebtinfo{Thông tin dư nợ} netassets{Tổng tài sản ròng thực tế} cash{Tiền mặt} securities{Chứng khoán} totalactualassets{Tổng tài sản thực tế} actualnetassets{TSR thực tế} availablecash{Tiền mặt có thể rút} totaldebt{Tổng nợ} rttRatio{TỶ LỆ RTT} other{}}",
+  "assetGeneralForm" : "{assetGeneralForm, select, assetInfo{Thông tin tài sản} totalactualassets{Tổng tài sản thực tế} realnetassets{Tài sản ròng thực tế} basicbuyingpower{Sức mua cơ bản} casha4w{Tiền mặt có thể rút} cash{Tiền mặt} heldstockvalue{Giá trị CK nắm giữ} totalPA{Tổng tài sản ký quỹ} accountlimit{Hạn mức tài khoản} asf{Tiền bán có thể ứng} pevs{Giá trị CK chờ THQ} npa{Tài sản ròng ký quỹ} percentgainloss{% Lãi/lỗ} dividend{Cổ tức} SNAFL{Chứng khoán không cho vay} totaldebt{Tổng nợ} rttRatio{Tỉ lệ RTT} lockedfunds{Tiền phong tỏa} SAFL{CK cho vay} principaldebt{Nợ gốc} ANFS{Số tiền cần bổ sung} buypending{Mua chờ khớp} totalcapitalvalue{Tổng giá trị vốn} interestdebt{Nợ lãi} accountstatus{Trạng thái tài khoản} BWTD{Mua trong ngày} gainloss{Lãi/lỗ} feedebt{Nợ phí LK} other{}}",
+  "assetMoneyForm": "{assetMoneyForm,select, accountbalance{Thông tin số dư tiền} moneystate{Sao kê tiền} buyingPower{Sức mua} cash{Tiền mặt} casha4w{Tiền mặt có thể rút} lockedfunds{Số tiền phong tỏa} asf{Tiền bán có thể ứng} mps{Tiền chờ về} dividend{Cổ tức} buypending{Mua chờ khớp} pfss{Tiền bán CK} feedebt{Nợ phí LK} other{}}",
+  "assetStockForm": "{assetStockForm,select, securitiesBalance{Thông tin số dư chứng khoán} gainlossDaily{Lãi/lỗ trong ngày} stockstate{Sao kê chứng khoán} gainlossPort{Lãi/lỗ danh mục} rPorL{Lãi lỗ đã thực hiện} directInfo{Thông tin danh mục} sellmulcode{Bán nhiều mã} symbol{Mã CK} market{Sàn} costprice{Giá vốn} price{Giá TT} availablevol{KL khả dụng} gainloss{Lãi/lỗ} capitalvalue{Giá trị vốn} marketvalue{Giá trị TT} totalvol{Tổng KL} shareUnA{Không khả dụng} buypending{KL mua chờ về} other{}}",
+
+  "expandForm": "{expandForm, select, expand{Mở rộng} moneyTrans{Giao dịch tiền} transferStock{Chuyển chứng khoán} rightTrading{Giao dịch quyền} termdeposit{Tiền gửi có kỳ hạn} settings{Cài đặt} smartotp{Smart OTP} search{Tìm kiếm tính năng} other{}}",
+
+  "expandList1Form": "{expandList1Form, select, dmiaa{Nộp tiền vào tài khoản} laba{Liên kết TKNH} tmtb{Chuyển tiền ra NH} imt{Chuyển tiền nội bộ} ba{Tài khoản thụ hưởng} cr{Lịch sử chuyển tiền} other{}}",
+  "expandList2Form": "{expandList2Form, select, ts{Chuyển chứng khoán} sth{Lịch sử chuyển CK} other{}}",
+  "expandList3Form": "{expandList3Form, select, lup{Tra cứu quyền} ryrtb{Đăng ký quyền mua} other{}}",
+  "expandList4Form": "{expandList4Form, select, pb{Ngân hàng đối tác} luir{Tra cứu lãi suất} madr{Lập yêu cầu gửi tiền} lod{Danh sách khoản gửi tiền} other{}}",
+  "expandList5Form": "{expandList5Form, select, language{Ngôn ngữ} bs{Bảo mật sinh trắc học} clp{Đổi mật khẩu đăng nhập} ctp{Đổi mật khẩu giao dịch} lw{Cảnh báo lãi lỗ} smss{Cài đặt sms} pi{Thông tin tài khoản} dsi{Thông tin ký số} other{}}",
+  "expandList6Form": "{expandList6Form, select, rso{Đăng ký Smart OTP} go{Lấy mã OTP} do{Phương thức nhận OTP} cso{Đổi Smart OTP} fso{Quên Smart OTP} other{}}",
+
+  "transferMoneyToBank" : "{transferMoneyToBank, select, tmtb{Chuyển tiền ra ngân hàng} senderInfo{Thông tin người chuyển} sendAccount{Tài khoản chuyển} aaft{Số tiền có thể chuyển} recInfo{Thông tin người nhận} recvAccount{Tài khoản nhận} recvBank{Ngân hàng nhận} recName{Tên người nhận} transAmount{Số tiền chuyển} transFee{Phí giao dịch} transDes{Nội dung chuyển tiền} totalAmount{Tổng tiền} fromAccount{Từ tài khoản} toAccount{Đến tài khoản} other{}}",
+  "transferMoneyIn": "{transferMoneyIn, select, iMT{Chuyển tiền nội bộ} senderInfo{Thông tin người chuyển} sendAccount{Tài khoản chuyển} aaft{Số tiền có thể chuyển} recInfo{Thông tin tài khoản người nhận} recvAccount{Tài khoản nhận} recName{Tên người nhận} transAmount{Số tiền chuyển} transDes{Nội dung chuyển tiền} transFee{Phí giao dịch} totalAmount{Tổng tiền} fromAccount{Từ tài khoản} toAccount{Đến tài khoản} other{}}",
+  "beneficAccount" : "{beneficAccount, select, benefAccount{Tài khoản thụ hưởng} LORA{Danh sách tài khoản thụ hưởng} addBenAcc{Thêm tài khoản thụ hưởng} banks{Ngân hàng} account{Tài khoản} AHFN{Họ và tên chủ tài khoản} other{}}",
+  
+
+  "lookUpPermission" : "{lookUpPermission, select, lookUpPer{Tra cứu quyền} bank{Ngân hàng} TOR{Loại quyền} status{Trạng thái} rightInfo{Thông tin quyền} ER{Tỉ lệ thực hiện} EED{Ngày thực hiện dự kiến} seeDetail{Xem chi tiết} rightDetail{Chi tiết quyền} QORD{Số lượng tại ngày chốt} closeDate{Ngày chốt quyền} other{}}",
+
+
+  "partnerBanks": "{partnerBanks, select, title{Ngân hàng đối tác} deposit{Gửi tiền} depositpolicy{Chính sách gửi tiền} download{Tải xuống} other{}}",
+  "searchInterestRate": "{searchInterestRate, select, title{Tra cứu lãi suất} bank{Ngân hàng} term{Kỳ hạn} interestRate{Lãi suất} preInterestRate{Lãi suất trước hạn} deposit{Gửi tiền} other{}}",
+  "requestSendMoney": "{requestSendMoney, select, title{Lập yêu cầu gửi tiền} account{Tài khoản} custName{Tên khách hàng} balance{Số dư tiền} min{Số tiền gửi tối thiểu} max{Số tiền gửi tối đa} sendbank{Ngân hàng gửi} bank{Ngân hàng} depositamount{Số tiền gửi} daterequest{Ngày lập yêu cầu} depositterm{Kỳ hạn gửi} interestRate{Lãi suất} preInterestRate{Lãi suất trước hạn} renewal{Hình thức tái tục} maturitydate{Ngày đáo hạn} receiveAccount{Tài khoản nhận gốc và lãi} other{}}",
+  "listSendMoney": "{listSendMoney, select, title{Danh sách khoản tiền gửi} bank{Ngân hàng} status{Trạng thái} depositamount{Số tiền gửi} title2{Chi tiết khoản gửi} account{Tài khoản} maturitydate{Ngày đáo hạn} accountdetail{Chi tiết tài khoản} interest{Lãi} interestRate{Lãi suất} term{Kỳ hạn} renewal{Hình thức tái tục} renewalNumber{Lần tái tục thứ} other{}}",
+
+  "biometricSecurity": "{biometricSecurity, select, title{Bảo mật sinh trắc học} note{Quý khách vui lòng nhập mật khẩu để kích hoạt chức năng này} account{Số tài khoản} password{Mật khẩu} other{}}",
+  "changeLoginPass": "{changeLoginPass,select, title{Đổi mật khẩu đăng nhập} oldpass{Mật khẩu hiện tại} newpass{Mật khẩu mới} renewpass{Xác thực mật khẩu mới} note{Lưu ý: } exception{Mật khẩu phải từ 8-32 ký tự, bao gồm chữ hoa, chữ thường, số và ký tự đặc biệt. Mật khẩu mới không được trùng với mật khẩu hiện tại.} other{}}",
+  "losswarning": "{losswarning, select, title{Cảnh báo lãi lỗ} choice1{Cài đặt cảnh báo} choice2{Danh sách cảnh báo} account{Tài khoản} applicabletype{Loại áp dụng} stockcode{Mã chứng khoán} profit{Lãi} loss{Lỗ} other{}}",
+  "smssetting": "{smssetting,select, smssetting{Cài đặt SMS} msg{Nhận thông báo qua SMS được gửi về số điện thoại đã đăng ký của Quý khách.} other{}}",
+  "accountForm": "{accountForm,select, account{Tài khoản} cn{Tên khách hàng} op{Số ĐKSH/Pasport} id{Ngày cấp} poi{Nơi cấp} address{Địa chỉ} phone{Điện thoại} mobile{Di động} email{Email} ct{Loại khách hàng} branch{Chi nhánh} consultant{Cán bộ tư vấn} is{Trạng thái thông tin} other{}}",
+  "digitalSignature": "{digitalSignature,select, title{Thông tin ký số} choice1{Đăng ký TT ký số} choice2{Danh sách TT ký số} cust{Khách hàng} frDate{Từ ngày} toDate{Đến ngày} provider{Đơn vị} username{Tên đăng nhập} loginpass{Mật khẩu đăng nhập} status{Trạng thái} description{Mô tả} titleUpdate{Sửa thông tin ký số} other{}}",
+
+  "deliveryOTP": "Phương thức nhận OTP",
+
+  "buttonForm": "{buttonForm, select, adjust{Điều chỉnh} confirm{Xác nhận} continue{Tiếp tục} cancel{Hủy bỏ} delete{Xóa} update{Sửa} save{Lưu} apply{Áp dụng} clearFilter{Xóa bộ lọc} withdrawsMoney{Rút tiền} sendMoney{Gửi tiền} cancel2{Hủy} buyButton{Mua} sellButton{Bán} other{}}"
+  
+}

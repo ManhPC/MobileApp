@@ -1,0 +1,73 @@
+ 
+ {
+  "not_selected_stock_code":"You have not selected a stock code",
+  "purchasing_ability":"BP: ",
+  "lang":"Language",
+  "language":"Language",
+  "languageDropdown": "{locale, select, vi{VN} en{EN} other{} }",
+  "@languageDropdown": {
+    "placeholders": {
+      "locale": {
+        "type": "String"
+      }
+    }
+  },
+ "loginForm": "{loginForm, select, title{Login} create_account{Register} account{Don't have an account yet?} user_name{User name} password{Password} save_login{Save login} forgot_password{Forgot password ?} search_stk{Search account} save_login_info{Remember} other{}}",
+  "@loginForm": {
+    "placeholders": {
+      "loginForm": {
+        "type": "String"
+      }
+    }
+  },
+  
+  "hintSearch" : "Search...",
+
+  "searchAccount": "{searchAccount,select, searchaccount{Search for account number} message{Please enter complete information below to search for account number} idcard{ID card number} phone{Phone number} button{Search} accountnumber{Your account number} accountname{Account holder's name} other{}}",
+  "forgetPassword": "{forgetPassword, select, forgotpassword{Forgot Password} accountnumber{Account number} idcard{Identification code} resetpass{Reset Password} newpass{New password} enternewpass{Enter new password} renewpass{Re-enter new password} enterrenewpass{Please re-enter new password} msg{Login password must have:} check1{Length of 8-32 characters.} check2{Include uppercase, lowercase, numbers, and special characters.} check3{Exclude spaces.} other{}}",
+
+  "bottombarForm" : "{bottombarForm,select, home{Home} market{Market} order{Order} asset{Assets} orderbook{Order book} expand{Expand} other{}}",
+
+  "homepageForm" : "{homepageForm,select,bill{Bil} all{All} watchlist{Watchlist} equitySecure{Equity securities} stock{Stock} industry{Industry} waranties{Waranties} symbol{Symbol} matchPrice{Match price} matchvol{Match vol} totalvol{Total vol} addnewWL{Add new watchlist} other{}}",
+
+  "marketpageForm" : "{marketpageForm,select,  other{}}",
+
+  "addCommandForm" : "{addCommandForm,select,order{Order} floor{Floor} tc{Ref} ceil{Ceil} highest{Highest} lowest{Lowest} avg{Avg} totalvol{Totál vol} Bvol{Buy vol} Svol{Sell vol} Bpri{Buy price} Spri{Sell price} volume{Volume} maxQuan{Maximum quantity} price{Price} stoplossprice{Stop loss price} takeprofitprice{Take profit price} SLs{SL slippage} activationprice{Activation price} slippage{Slippage} pricerange{Price range} startDate{Start date} endDate{End date} buyingPower{Buying power} loanRatio{Loan ratio} totalordervalue{Total order value} other{}}",
+
+  "assetPageForm" : "{assetPageForm,select, assetPM{Asset portfolio management} account{Account} outdebtinfo{Outstanding debt information} netassets{Net assets} cash{Cash} securities{Securities} totalactualassets{Total actual assets} actualnetassets{Actual net assets} availablecash{Available cash} totaldebt{Total debt} rttRatio{RTT RATIO} other{}}",
+  "assetGeneralForm" : "{assetGeneralForm, select, assetInfo{Asset infomation} totalactualassets{Total actual assets} realnetassets{Real net assets} basicbuyingpower{Basic buying power} casha4w{Cash available for withdrawal} cash{Cash} heldstockvalue{Held stock value} totalPA{Total pledged assets} accountlimit{Account limit} asf{Available selling funds} pevs{Pending exercise value of stocks} npa{Net pledged assets} percentgainloss{% Gain/Loss} dividend{Dividend} SNAFL{Stock not available for loan} totaldebt{Total debt} rttRatio{RTT ratio} lockedfunds{Locked funds} SAFL{Stock available for loan} principaldebt{Principal debt} ANFS{Amount needed for supplementation} buypending{Buy pending} totalcapitalvalue{Total capital value} interestdebt{Interest debt} accountstatus{Account status} BWTD{Buy within the day} gainloss{Gain/Loss} feedebt{Fee debt} other{}}",
+  "assetMoneyForm": "{assetMoneyForm,select, accountbalance{Account balance} moneystate{Money statement} buyingPower{Buying power} cash{Cash} casha4w{Cash available for withdrawal} lockedfunds{Locked funds} asf{Available selling funds} mps{Money Pending settlement} dividend{Dividend} buypending{Buy pending} pfss{Proceeds from selling securities} feedebt{Fee debt} other{}}",
+  "assetStockForm": "{assetStockForm,select, securitiesBalance{Securities balance} gainlossDaily{Daily profit/loss} stockstate{Stock statements} gainlossPort{Portfolio profit/loss} rPorL{Realized profit or loss} directInfo{Directory information} sellmulcode{Sell multiple codes} symbol{Symbol} market{Market} costprice{Cost price} price{Price} availablevol{Available vol} gainloss{Gain/loss} capitalvalue{Capital value} marketvalue{Market value} totalvol{Total vol} shareUnA{Share UnAvailable} buypending{Buy pending} other{}}",
+
+  "expandForm": "{expandForm, select, expand{Expand} moneyTrans{Money Transactions} transferStock{Transfer Securities} rightTrading{Rights Trading} termdeposit{Term Deposit} settings{Settings} smartotp{Smart OTP}  search{Search features} other{}}",
+  "expandList1Form": "{expandList1Form, select, dmiaa{Deposit money into account} laba{Linking a bank account} tmtb{Transfer money to bank} imt{Internal money transfer} ba{Beneficiary account} cr{Money transfer history} other{}}",
+  "expandList2Form": "{expandList2Form, select, ts{Transfer securities} sth{Stock transfer history} other{}}",
+  "expandList3Form": "{expandList3Form, select, lup{Look up permissions} ryrtb{Register your right to buy} other{}}",
+  "expandList4Form": "{expandList4Form, select, pb{Partner bank} luir{Look up interest rates} madr{Make a deposit request} lod{List of deposits} other{}}",
+  "expandList5Form": "{expandList5Form, select, language{Language} bs{Biometric security} clp{Change login password} ctp{Change transaction password} lw{Loss warning} smss{Sms settings} pi{Personal information} dsi{Digital signature information} other{}}",
+  "expandList6Form": "{expandList6Form, select, rso{Register Smart OTP} go{Get OTP} do{Delivery OTP} cso{Change Smart OTP} fso{Forgot Smart OTP}  other{}}",
+  
+  "transferMoneyToBank" : "{transferMoneyToBank, select, tmtb{Transfer money to bank} senderInfo{Sender information} sendAccount{Sending account} aaft{Amount available for transfer} recInfo{Recipient information} recvAccount{Receiving account} recvBank{Receiving bank} recName{Recipient name} transAmount{Transfer amount} transFee{Transaction fee} transDes{Transfer description} totalAmount{Total amount} fromAccount{From account} toAccount{To account} other{}}",
+  "transferMoneyIn": "{transferMoneyIn, select, iMT{Internal money transfer} senderInfo{Sender information} sendAccount{Sending account} aaft{Amount available for transfer} recInfo{Recipient information} recvAccount{Receiving account} recName{Recipient name} transAmount{Transfer amount} transDes{Transfer description} transFee{Transaction fee} totalAmount{Total amount} fromAccount{From account} toAccount{To account} other{}}",
+  "beneficAccount" : "{beneficAccount, select, benefAccount{Beneficiary account} LORA{List of receiving accounts} addBenAcc{Add beneficiary account} banks{Banks} account{Account} AHFN{Account holder's full name} other{}}",
+  
+
+  "lookUpPermission" : "{lookUpPermission, select, lookUpPer{Look up permissions} bank{Bank} TOR{Type of rights} status{Status} rightInfo{Right information} ER{Execution ratio} EED{Expected execution date} seeDetail{See details} rightDetail{Right detail} QORD{Quantity on record date} closeDate{Close date} other{}}",
+
+  "partnerBanks": "{partnerBanks, select, title{Partner bank} deposit{Deposit} depositpolicy{Deposit policy} download{Download} other{}}",
+  "searchInterestRate": "{searchInterestRate, select, title{Interest rate inquiry} bank{Bank} term{Term} interestRate{Interest rate} preInterestRate{Pre-maturity interest rate} deposit{Deposit} other{}}",
+  "requestSendMoney": "{requestSendMoney, select, title{Make a deposit request} account{Account} custName{Customer name} balance{Account balance} min{Minimum deposit amount} max{Maximum deposit amount} sendbank{Sending bank} bank{Bank} depositamount{Deposit Amount} daterequest{Request creation date} depositterm{Deposit term} interestRate{Interest rate} preInterestRate{Pre-maturity interest rate} renewal{Renewal method} maturitydate{Maturity date} receiveAccount{Principal and interest receiving account} other{}}",
+  "listSendMoney": "{listSendMoney, select, title{List of deposits} bank{Bank} depositamount{Deposit amount} title2{Deposit details} account{Account} accountdetail{Account detail} interest{Interest} interestRate{Interest rate} term{Term} renewal{Renewal method} maturitydate{Maturity date} renewalNumber{Renewal number} status{Status} other{}}",
+
+  "biometricSecurity": "{biometricSecurity, select, title{Biometric Security} note{Please enter your password to activate this function} account{Account} password{Password} other{}}",
+  "changeLoginPass": "{changeLoginPass,select, title{Change login password} oldpass{Old password} newpass{New password} renewpass{Confirm new password} note{Note: } exception{The password must be 8-32 characters long, including uppercase letters, lowercase letters, numbers, and special characters. The new password must not be the same as the current password.} other{}}",
+  "losswarning": "{losswarning, select, title{Loss warning} choice1{Alert settings} choice2{Warning list} account{Account} applicabletype{Applicable type} stockcode{Stock code} profit{Profit} loss{Loss} other{}}",
+  "smssetting": "{smssetting,select, smssetting{SMS settings} msg{Receive SMS notifications sent to your registered phone number.} other{}}", 
+  "accountForm": "{accountForm,select, account{Account} cn{Customer name} op{ORN/Passport} id{Issued date} poi{Place of issue} address{Address} phone{Phone} mobile{Mobile} email{Email} ct{Customer type} branch{Branch} consultant{Consultant} is{Information status} other{}}",
+  "digitalSignature": "{digitalSignature,select, title{Digital signature information} choice1{Register digital signature information} choice2{List of digital signature information} cust{Customer} frDate{From date} toDate{To date} provider{Provider} username{Username} loginpass{Login password} status{Status} description{Description} titleUpdate{Update digital signature information} other{}}",
+
+  "deliveryOTP" : "Delivery OTP",
+
+  "buttonForm": "{buttonForm, select, adjust{Adjust} confirm{Confirm} continue{Continue} cancel{Cancel} delete{Delete} update{Update} apply{Apply} save{Save} clearFilter{Clear filter} withdrawsMoney{Withdraw money} sendMoney{Send money} cancel2{Cancel} buyButton{Buy} sellButton{Sell} other{}}"
+ }
+
